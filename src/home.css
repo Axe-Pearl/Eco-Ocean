@@ -60,3 +60,12 @@ margin-left:10px;
     transition-duration: 1.5s;
     content: "CLICK ME";
 }
+
+/* learn more */
+.qrcode{
+    position: absolute;
+}
+.code{
+    margin-top: -300px;
+    margin-left: -20px;
+}
