@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+/* header */
+
+.header{
+    display: flex;
+    
+}
+.header-options{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.title{
+    margin-left: 20px;
+    margin-bottom: 27px;
+    font-family: 'Caveat', cursive;
+    font-size:40px;
+}
+.options{
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* app-brief middle */
+.app-brief{
+    height: 550px;
+    display: flex;
+    background-color:#FFD8CC;
+ }
+.poster-img{
+  display: flex;
+  height:400px;
+  width:400px;
+  padding: 30px;
+  object-fit: contain;
+}
+
+.app-intro{
+    display:flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.quote{
+font-family: 'Dancing Script', cursive;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 5px;
+line-height: 100.80000305175781px;
+text-transform: none;
+color:darkslategray;
+margin-left:10px;
+}
+.quote-mean{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 50px;
+    margin-top: -10px;
+}
