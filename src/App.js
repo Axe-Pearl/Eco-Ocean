@@ -2,12 +2,14 @@ import React from "react";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import './App.css';
 import Home from "./home";
+import Header from "./header";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
         <Route path="/">
+          <Header/>
           <Home />
         </Route>
       </Switch>

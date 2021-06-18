@@ -4,24 +4,18 @@ import "./home.css";
 function Home() {
     return (
         <div>
-            {/* header */}
-            <div className="header">
-                <h1 className="title">Eco Ocean</h1>
-                <div className="header-options">
-                    <Link to="/" className="options"><h3 >Home</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">Donate</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">Stories</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">Community</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">Contact Us</h3></Link>
-                </div>
-                {/* app-brief middle */}
-           
-            </div>
+             {/* app-brief middle */}
             <div className="app-brief">
               <img className="poster-img" src="../Images/app-poster1.jpg"></img>
               <div className="app-intro">
                   <medium className="quote">' Vasudev Kutumbkam '</medium> 
                   <p className="quote-mean">The Whole Universe is our Family</p>
+                  <div className="app-aim">
+                    <p className="description">Millions of Street Animals</p>
+                    <p className="description">are living in bad Condition</p>
+                    <p className="description">Lets help them...</p>
+                    <button className="donate_button" type="button" ></button>
+                   </div>
               </div>
             </div>
         </div>
