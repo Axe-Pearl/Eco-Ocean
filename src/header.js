@@ -10,7 +10,7 @@ function Header() {
                 <div className="header-options">
                     <Link to="/" className="options"><h3 >Home</h3></Link>
                     <Link to="/" className="options"><h3 className="options">Donate</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">Stories</h3></Link>
+                    <Link to="/stories" className="options"><h3 className="options">Stories</h3></Link>
                     <Link to="/" className="options"><h3 className="options">Adopt</h3></Link>
                     <Link to="/" className="options"><h3 className="options">Community</h3></Link>
                     <Link to="/" className="options"><h3 className="options">Contact Us</h3></Link>
