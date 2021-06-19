@@ -14,7 +14,7 @@ function Home() {
                   <div className="app-aim">
                     <p className="description">Millions of Street Animals</p>
                     <p className="description">are living in bad Condition</p>
-                    <p className="description">Lets help them...</p>
+                    <p className="description">Let's help them...</p>
                     <button className="donate_button" type="button" ></button>
                    </div>
               </div>

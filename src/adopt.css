@@ -1,0 +1,50 @@
+
+.pet_container{
+    display: inline-block;
+}
+.pet_content{
+    border:1px black solid;
+    width: 300px;
+    line-height: 6px;
+    padding: 10px;
+    margin:20px;
+    background-color: bisque;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.pet_content:hover{
+    transform:scale(1.1);
+}
+.img{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+   margin-bottom: 0px;
+}
+.breed{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.price{
+    font-family:verdana;
+    color: blue;
+}
+.link{
+    text-decoration: none;
+}
+.link::after{
+    content:"Their Story";
+    color:black;
+    transition: 3s;
+}
+.link:hover::after{
+    content:"Read->";
+}
+.add_to_cart{
+    width: 100px;
+    height: 35px;
+    background-color:darkseagreen;
+    border-radius: 20px;
+}
+.add_to_cart:hover{
+    background-color: orange;
+}
