@@ -4,12 +4,13 @@ import pets from "./pets";
 import "./adopt.css";
 function Adopt({id,image,petbreed,price}) {
     const [{ basket },dispatch]=useStateValue();
-    //console.log("this is the cart>>", basket);
+    // console.log("this is the cart>>", basket);
     const addToBasket=()=>{
        dispatch({
          type:"ADD_TO_BASKET",
          pets: {
              id:id,
+             image:image,
              petbreed:petbreed,
              price:price
          }
@@ -17,7 +18,7 @@ function Adopt({id,image,petbreed,price}) {
     }
   return (
         <div className="pet_container">
-                 <div className="pet_content">
+                <div className="pet_content">
                 <img className="img" src={image}></img>
                  <h3 className="breed">{petbreed}</h3>
                  <h4 className="price">₹{price}</h4>

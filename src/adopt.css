@@ -32,7 +32,7 @@
     text-decoration: none;
 }
 .link::after{
-    content:"Their Story";
+    content:"About them";
     color:black;
     transition: 3s;
 }

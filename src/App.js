@@ -4,12 +4,17 @@ import './App.css';
 import Home from "./home";
 import Header from "./header";
 import Stories from "./stories";
+import Checkout from './checkout';
 import Adoptback from "./adoptback";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
+        <Route path="/checkout">
+          <Header />
+          <Checkout />
+        </Route>
         <Route path="/adopt">
           <Header />
           <Adoptback />

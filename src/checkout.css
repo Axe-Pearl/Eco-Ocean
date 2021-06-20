@@ -1,0 +1,63 @@
+.basket_check{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border:1px grey solid;
+    margin: 30px;
+}
+
+.basket_reveal{
+ display: flex;
+ margin:30px;
+ border-bottom: 1px grey solid;
+ padding:10px;
+}
+.img{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    margin:20px;
+   margin-bottom: 0px;
+}
+.details{
+    border-left:solid 1px grey;
+}
+.breed:before{
+    content:"Name of Breed: ";
+}
+.breed{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin:20px;
+}
+.price:before{
+  content:"Price: ";
+}
+.price{
+    font-family:verdana;
+    color: blue;
+    margin:20px;
+}
+
+.image-container{
+    display: flex;
+    width: 30%;
+}
+.remove{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    width: 10%;
+}
+
+.description-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left:1px solid grey;
+}
+.description{
+    margin-top: 0px;
+}

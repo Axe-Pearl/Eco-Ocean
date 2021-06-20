@@ -1,17 +1,20 @@
  const videos = [
     {
+       key:1,
        id:1,
        video:"https://youtu.be/6ChReaV5QmU",
        title:"Short Documentary on Animal Welfare | Abandoned",
        description:"This is a short documentary about People For Animal, which is an NGO working for the welfare of pets. This film clearly shows how pets are just thrown on the streets and are not taken care of after they are fully grown."
     },
     {
+       key:2,
        id:2,
        video:"https://youtu.be/yYF8eZRGdrI",
        title:"Roaming the streets with dogs | कुत्तों के साथ सड़कों पर घूमते हुए | Animal Planet",
        description:"Dogs have been our buddies for centuries! While some find a home, some wander the streets. Watch how street dogs thrive in human settlements in different countries, only on Animal Planet!कुत्ते सदियों से हमारे सबसे खास दोस्त रहे हैं! जहां कुछ को घर मिल जाते हैं, कुछ सड़कों पर घूमते हैं। देखें आवारा कुत्ते विभिन्न देशों में मानव बस्तियों के बीचों बीच कैसे जीते हैं, केवल एनिमल प्लैनेट पर!"
     },
     {
+        key:3,
         id:3,
         video:"https://youtu.be/cArm5uqUv8Q",
         title:"Terrified & in pain, puppy's amazing transformation after rescue.",
