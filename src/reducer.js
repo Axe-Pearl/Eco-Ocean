@@ -1,5 +1,5 @@
 export const initialState={
-    basket: []
+    basket: [],
 };
 
 
@@ -33,6 +33,15 @@ const reducer = (state,action) =>{
                 ...state,
                 basket:newBasket
             }
+        case "SHOW_MORE":
+            const targeto = action.peto;
+            console.log(targeto);
+            
+            return{
+                ...state,
+                reader:[targeto]
+            }
+            
         default:
             return state;
     }

@@ -1,17 +1,34 @@
 import React from 'react'
 import {useStateValue} from './StateProvider';
 import DeleteIcon from '@material-ui/icons/Delete';
+import  { Link } from "react-router-dom";
 import "./checkout.css";
 
 function Insert(terms){
     const [{basket},dispatch] = useStateValue(); 
+
+    const showmore = ()=>{
+        dispatch({
+        type:"SHOW_MORE",
+        peto:{
+            id:terms.id,
+            image:terms.image,
+            petbreed:terms.petbreed,
+            price:terms.price,
+            description:terms.description
+        }
+        });
+
+    }
     const removefromBasket = ()=>{
         dispatch({
             type:"REMOVE_FROM_BASKET",
             pet:{
                 id:terms.id,
+                image:terms.image,
                 petbreed:terms.petbreed,
-                price:terms.price
+                price:terms.price,
+                description:terms.description
             }
         });
     }
@@ -30,6 +47,7 @@ function Insert(terms){
         </div>
         <div className="description-box">
             <h3 className="description">Description</h3>
+            <p className="about">{terms.description.substring(0,500)}&ensp;<Link to = "/readmore"><h5 onClick={showmore} >Read More...</h5> </Link> </p>
         </div>
     </div>
     )

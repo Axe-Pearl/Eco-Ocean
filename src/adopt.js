@@ -2,9 +2,9 @@ import React from 'react'
 import {useStateValue} from "./StateProvider";
 import pets from "./pets";
 import "./adopt.css";
-function Adopt({id,image,petbreed,price}) {
+function Adopt({id,image,petbreed,price,description}) {
     const [{ basket },dispatch]=useStateValue();
-    // console.log("this is the cart>>", basket);
+    console.log("this is the cart>>", basket);
     const addToBasket=()=>{
        dispatch({
          type:"ADD_TO_BASKET",
@@ -12,7 +12,8 @@ function Adopt({id,image,petbreed,price}) {
              id:id,
              image:image,
              petbreed:petbreed,
-             price:price
+             price:price,
+             description:description
          }
        });
     }

@@ -4,7 +4,7 @@ import { useStateValue } from './StateProvider';
 import { Link } from "react-router-dom";
 import "./header.css";
 function Header() {
-    const [{basket},dispatch]=useStateValue();
+    const [{basket,reader},dispatch]=useStateValue();
     return (
         <div>
              {/* header */}

@@ -4,7 +4,7 @@ import pets from "./pets";
 import "./adoptback.css";
 function insert(terms){
     return(
-        <Adopt id={terms.id} image={terms.image} petbreed={terms.petbreed} price={terms.price} />
+        <Adopt id={terms.id} image={terms.image} petbreed={terms.petbreed} price={terms.price} description={terms.description} />
     )
 }
 function Adoptback() {

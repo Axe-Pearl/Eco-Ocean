@@ -6,11 +6,16 @@ import Header from "./header";
 import Stories from "./stories";
 import Checkout from './checkout';
 import Adoptback from "./adoptback";
+import Brief from "./brief";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
+        <Route path="/readmore">
+          <Header />
+           <Brief />
+        </Route>
         <Route path="/checkout">
           <Header />
           <Checkout />
