@@ -2,6 +2,7 @@ import React from 'react'
 import {useStateValue} from './StateProvider';
 import DeleteIcon from '@material-ui/icons/Delete';
 import  { Link } from "react-router-dom";
+import FlipMove from 'react-flip-move';
 import "./checkout.css";
 
 function Insert(terms){
@@ -69,8 +70,11 @@ function Checkout() {
         return(
             <div>
                 {Cart_checker()}
+
            <div className="basket-pets">
+           <FlipMove>
               {basket.map(Insert)}
+           </FlipMove>
            </div>
         </div>
         )
