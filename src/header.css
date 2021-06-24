@@ -1,10 +1,13 @@
 
 /* header */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 .header{
     display: flex;
     background-color: ivory;
+    border-bottom: solid 1px rgb(137, 236, 137);
+    position: sticky;
 }
 .header-options{
   display: flex;
@@ -12,21 +15,38 @@
   flex-direction: row;
   margin-left: 100px;
 }
+.Logo{
+  margin-left: 100px;
+  margin-right:10px;
+  margin-top: 15px;
+  color:#161637;
+}
 .title{
     margin-left: 20px;
-    margin-bottom: 27px;
-    font-family: 'Caveat', cursive;
-    font-size:40px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;;
+    font-size:30px;
+    text-decoration: none;
+    color:#161637;
+}
+.linkero{
+  text-decoration: none;
 }
 .options{
     margin: 10px;
+    margin-top: 16px;
+    margin-left: 20px;
     text-decoration: none;
+    color:#161637;
 }
 
 .basket-container{
-
+  margin-top: 16px;
   display: flex;
   align-items: center;
   flex-direction: row;
   margin-left: 100px;
+}
+.basket{
+  color:#161637;
 }

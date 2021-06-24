@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 /* app-brief middle */
 .app-brief{
-    height: 550px;
     display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
  }
-.poster-img{
-  display: flex-inline;
-  height:400px;
-  width:400px;
-  padding: 30px;
-  object-fit: contain;
-}
 
 .app-intro{
-    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 10px;
 }
-.quote{
+/* .quote{
 font-family: 'Dancing Script', cursive;
 font-size: 65px;
 font-style: normal;
@@ -33,26 +30,41 @@ margin-left:10px;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-size: 50px;
     margin-top: -10px;
-}
+} */
 
 .description{
-    font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 1;
-    letter-spacing: 0.2em;
+    margin-bottom:20px;
+    margin-left: 20px;
+    font-size: 62px;
+    font-family:'Inter', sans-serif;
+    color:#161637;
+    font-weight: 600;
+}
+.donate-line{
+    font-size: 'Inter',sans-serif;
+    font-size: 25px;
+    color:#161637;
 }
 .donate_button{
-    width:300px;
-    height: 80px;
+    width:200px;
+    height: 55px;
     border-color: black;
-    background-color: white;
-    border-width: 2px;
+    background-color:#3D3DC3;
+    font-family:'Inter', sans-serif ;
+    font-size: 14px;
+    font-weight:600;
+    letter-spacing: 0.98px;
+    text-decoration: none solid rgb(255,255,255);
+    color:white;
+    line-height: 14px;
+    border-radius: 5px;
     transition: 1s;
+    margin-bottom: 100px;
 }
 .donate_button:after{
     font-size: larger;
     content:"DONATE";
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Inter', sans-serif ;
     transition: 1s;
 }
 .donate_button:hover:after{
@@ -60,8 +72,24 @@ margin-left:10px;
     transition-duration: 1.5s;
     content: "CLICK ME";
 }
-
+/* .image-container1{
+   position: absolute;
+} */
+.screen{
+    position: absolute;
+}
+.screen2{
+ height: 400px;
+ width: 400px;
+ margin-top: -16px;
+ margin-left:155px;
+ object-fit: contain;
+ box-shadow: black;
+}
 /* learn more */
+.learn-more{
+    margin-top: 100px;
+}
 .qrcode{
     position: absolute;
 }
