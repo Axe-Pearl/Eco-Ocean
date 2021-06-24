@@ -7,7 +7,6 @@
     display: flex;
     background-color: ivory;
     border-bottom: solid 1px rgb(137, 236, 137);
-    position: sticky;
 }
 .header-options{
   display: flex;

@@ -59,7 +59,8 @@ margin-left:10px;
     line-height: 14px;
     border-radius: 5px;
     transition: 1s;
-    margin-bottom: 100px;
+    margin:10px;
+    margin-bottom: 30px;
 }
 .donate_button:after{
     font-size: larger;
@@ -72,11 +73,25 @@ margin-left:10px;
     transition-duration: 1.5s;
     content: "CLICK ME";
 }
-/* .image-container1{
-   position: absolute;
-} */
+.signup_button{
+    width:200px;
+    height: 55px;
+    border-color: black;
+    font-family:'Inter', sans-serif ;
+    font-size: 14px;
+    font-weight:600;
+    letter-spacing: 0.98px;
+    text-decoration: none solid rgb(255,255,255);
+    color:black;
+    line-height: 14px;
+    border-radius: 5px;
+    transition: 1s;
+    margin:10px;
+    margin-bottom: 100px;
+}
 .screen{
     position: absolute;
+    animation: moveito 2s infinite alternate; 
 }
 .screen2{
  height: 400px;
@@ -86,14 +101,63 @@ margin-left:10px;
  object-fit: contain;
  box-shadow: black;
 }
+@keyframes moveito{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+} 
+
 /* learn more */
-.learn-more{
+.adopt{
+    display: flex;
+    flex-direction: row;
+    margin-left:150px;
     margin-top: 100px;
 }
+/* @media */
 .qrcode{
-    position: absolute;
+    animation: moveit 1s infinite alternate;
+}
+@keyframes moveit{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 .code{
+    position: absolute;
     margin-top: -300px;
-    margin-left: -20px;
+    margin-left: 135px;
+}
+
+
+
+.image-section{
+   margin-left: 50px;
+}
+.why-section{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+.why-title{
+    font-size: 32px;
+    color:#161637;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+.why{
+    display: flex;
+    font-size: 'Inter',sans-serif;
+    font-size: 20px;
+    color:#161637;
+}
+.linker{
+    text-decoration: none;
+}
+.linker:after{
+    content:"Learn More";
+    text-decoration: none;
+}
+.linker:hover:after{
+  content:"Learn More >";
 }
