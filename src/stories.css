@@ -1,6 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+.whythis{
+    display: flex;
+    margin: 60px;
+    margin-top: 100px;
+    /* background-color: rgb(224, 202, 172); */
+}
+.saveus{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+.story-why{
+    margin-top:30px;
+    margin-left: 150px;
+}
+.motto{
+    margin-top:50px;
+    background-color: rgb(243, 215, 179);
+    padding:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slogan{
+    font-family:'Inter var',sans-serif;
+    letter-spacing: 0.5rem;
+}
+.slogan-mean{
+    font-family:'Inter var',sans-serif;
+    font-size: 20px;
+}
+.motive{
+    font-family:'Inter var',sans-serif;
+    color:rgb(37, 30, 30);
+    font-size: 18px;
+}
+.title-stories{
+    margin-top: 150px;
+}
+
 .video_container{
     margin-left:50px;
     margin-right: 50px;
+    margin-bottom: 50px;
     display: flex;
     margin-top: 20px;
     border-bottom:1px grey solid;
@@ -19,5 +60,9 @@
 }
 .video_title{
     font-size: 20px;
-    font-family: fantasy;
+    font-family: 'Inter var',sans-serif;
+    font-weight: 600;
+}
+.video_description{
+    font-family: 'Inter var',sans-serif;
 }
