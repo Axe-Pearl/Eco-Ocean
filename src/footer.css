@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:whitesmoke;
+    font-family: 'Inter',sans-serif;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+}
+.Logo-bottom{
+    color:white;
+    margin-top: 30px;
+}
+
+.copyright{
+    display: flex;
+    margin-top: 14px; 
+    margin-left: 20px;
+}
+
+.connect{
+    display: flex;
+    margin-top: 36px; 
+    margin-left: 30px;
+    justify-content: center;
+}
+.icons{
+    margin-top: -5px;
+    margin-left: 15px;
+    color:white;
+}

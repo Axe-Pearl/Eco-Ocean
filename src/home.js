@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import QRCode from "qrcode.react";
+import Footer from "./footer";
 import "./home.css";
 function Home() {
     return (
@@ -14,7 +15,7 @@ function Home() {
                     <p className="description">Let's help them...</p>
                     <p className="donate-line">Your Contribution matters, Express Your Soul and Donate </p>
                     <button className="donate_button" type="button" ></button>
-                    <button className="signup_button" type="button" >SIGNUP</button>
+                    <Link to="/signup"><button className="signup_button" type="button" >SIGNUP</button></Link> 
                    </div>
                    <div className="image-container1">
                        <img className="screen" src="../Images/intro-section-image01.svg"></img>
@@ -169,6 +170,9 @@ function Home() {
                     
                 </div>
             </div>
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </div>
     )

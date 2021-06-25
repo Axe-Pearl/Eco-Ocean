@@ -62,6 +62,9 @@ margin-left:10px;
     margin:10px;
     margin-bottom: 30px;
 }
+.donate_button:hover{
+    cursor:pointer;
+}
 .donate_button:after{
     font-size: larger;
     content:"DONATE";
@@ -88,6 +91,9 @@ margin-left:10px;
     transition: 1s;
     margin:10px;
     margin-bottom: 100px;
+}
+.signup_button:hover{
+    cursor:pointer;
 }
 .screen{
     position: absolute;

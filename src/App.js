@@ -7,11 +7,15 @@ import Stories from "./stories";
 import Checkout from './checkout';
 import Adoptback from "./adoptback";
 import Brief from "./brief";
+import Signup from "./signup";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
+        <Route path="/signup">
+           <Signup />
+        </Route>
         <Route path="/readmore">
           <Header />
            <Brief />
