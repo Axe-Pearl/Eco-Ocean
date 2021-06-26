@@ -55,3 +55,16 @@
 .basket{
   color:#161637;
 }
+.cart_count{
+  color:#161637;
+  font-family: 'Inter var',sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+.counter{
+  width: 20px;
+  padding: 2px;
+  background-color:lightblue;
+  border-radius: 80px;
+}

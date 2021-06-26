@@ -1,6 +1,7 @@
 import React from 'react';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import PetsIcon from '@material-ui/icons/Pets';
+import LocalMallIcon from '@material-ui/icons/LocalMall';
 import EcoIcon from '@material-ui/icons/Eco';
 import { useStateValue } from './StateProvider';
 import { Link } from "react-router-dom";
@@ -21,8 +22,11 @@ function Header() {
                     <Link to="/" className="options"><h3 className="options">CONTACT US</h3></Link>
                 </div>
                 <div className="basket-container">
-                    <Link to="/checkout"><ShoppingBasketIcon classes={{ root: 'basket'}} style={{ fontSize: 30 }} /></Link>
-                    <medium>{basket.length}</medium>
+                    <Link to="/checkout"><LocalMallIcon classes={{ root: 'basket'}} style={{ fontSize: 30 }} /></Link>
+                    
+                    <div className="counter">
+                    <medium className="cart_count">{basket.length}</medium>
+                    </div>
                 </div>
             </div>
         </div>
