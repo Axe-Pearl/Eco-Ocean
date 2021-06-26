@@ -3,6 +3,7 @@ import {useStateValue} from './StateProvider';
 import DeleteIcon from '@material-ui/icons/Delete';
 import  { Link } from "react-router-dom";
 import FlipMove from 'react-flip-move';
+import Footer from "./footer";
 import "./checkout.css";
 
 function Insert(terms){
@@ -88,6 +89,9 @@ function Checkout() {
               {basket.map(Insert)}
            </FlipMove>
            </div>
+           <div className="footer">
+        <Footer />
+    </div>
         </div>
         )
 }

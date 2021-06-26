@@ -78,7 +78,7 @@ function Home() {
             <div className="why-section2">
                     <h4 className="why-title2">
                         Have more Questions ?
-                      <br></br> Scan QRCode to Know more and <br></br>download pdf!
+                      <br></br> Scan the QRCode and <br></br>Download the pdf!<br></br> to know more
                     </h4>
                     <div className="why2">
                     <p >You can read a well defined guide here,<br></br>

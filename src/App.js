@@ -3,17 +3,23 @@ import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import './App.css';
 import Home from "./home";
 import Header from "./header";
+import Footer from "./footer";
 import Stories from "./stories";
 import Checkout from './checkout';
 import Adoptback from "./adoptback";
 import Brief from "./brief";
 import Signup from "./signup";
 import Community from "./community";
+import Contactus from "./contactus";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
+        <Route path="/contact">
+          <Header />
+          <Contactus />
+        </Route>
         <Route path="/community">
           <Header />
           <Community />
