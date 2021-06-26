@@ -20,7 +20,7 @@ function Signup(){
                     </p>
                 </div>
                 <div className="image-animals">
-                 <img  className="img" src="../Images/donatethem.jpg"></img>
+                 <img  className="img" src="../Images/savedog.jpg"></img>
                 </div>
                 <div className="app-tag">
                     <p className="tag quote">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useStateValue } from './StateProvider';
+import Footer from "./footer";
 import "./brief.css";
 
 function Brief() {
@@ -15,6 +16,9 @@ function Brief() {
                 <h5 className="tagline">Hey Humans! Before you adopt me,let's learn about me </h5>
                 <h3 className="introduction">Who I'm Exactly ?</h3>
                 <p className="about_pet">{reader[0].description}</p>
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </div>
     )

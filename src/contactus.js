@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PetsIcon from '@material-ui/icons/Pets';
 import "./contactus.css";
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 function Contactus(){
     return(
        <div>
@@ -27,6 +30,11 @@ function Contactus(){
                     <p className="tag">
                     Help them to get a good life.
                     </p>
+                </div>
+                <div className="icon-container">
+                <TwitterIcon classes={{root:"icons-ani"}} />
+                <Link to="https://www.linkedin.com/in/anurag-nema-8b5569194/"><LinkedInIcon classes={{root:"icons-ani"}} /></Link>
+                <Link to="https://github.com/Axe-Pearl"><GitHubIcon classes={{root:"icons-ani"}} /></Link>
                 </div>
        </div>
 

@@ -1,0 +1,41 @@
+.donate-container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.donate-head{
+    display: flex;
+}
+.donate-para{
+    padding:50px;
+}
+.image-donate{
+  width:400px;
+  height: 400px;
+  object-fit: cover;
+}
+.description-donate{
+    font-size: 'Inter',sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:#161637;
+}
+.title-donate{
+    font-size: 'Inter',sans-serif;
+     font-size: 20px;
+     color:#161637;
+}
+
+/* donate form */
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.form-image{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}

@@ -11,13 +11,18 @@ import Brief from "./brief";
 import Signup from "./signup";
 import Community from "./community";
 import Contactus from "./contactus";
+import Donate from "./donate";
+
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
-        <Route path="/contact">
+        <Route path="/donate">
           <Header />
+          <Donate />
+        </Route>
+        <Route path="/contact">
           <Contactus />
         </Route>
         <Route path="/community">

@@ -15,7 +15,7 @@ function Header() {
                 <Link to="/" className="linkero"><h1 className="title"><PetsIcon classes={{ root: 'Logo'}} style={{ fontSize: 30 }}/>Eco Ocean</h1></Link> 
                 <div className="header-options">
                     <Link to="/" className="options"><h3 className="options">HOME</h3></Link>
-                    <Link to="/" className="options"><h3 className="options">DONATE</h3></Link>
+                    <Link to="/donate" className="options"><h3 className="options">DONATE</h3></Link>
                     <Link to="/stories" className="options"><h3 className="options">STORIES</h3></Link>
                     <Link to="/adopt" className="options"><h3 className="options">ADOPT</h3></Link>
                     <Link to="/community" className="options"><h3 className="options">COMMUNITY</h3></Link>
