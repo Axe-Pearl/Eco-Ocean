@@ -3,7 +3,7 @@
 .pet_container{
     display: inline-block;
     margin-top:50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .pet_content{
     display: flex;
@@ -11,7 +11,9 @@
     width: 300px;
     line-height: 6px;
     padding: 30px;
-    margin:20px;
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color:blanchedalmond;
 }
 .img-ani{

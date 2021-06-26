@@ -35,8 +35,9 @@ function Adoptback() {
                 <br></br><strong>Note- </strong>All these pets are as calm as pets in shop,we train them here,inject them
                 <br></br>against diseases.They are cute and calm.</p>
             </div>
+            <h1 className="and" >Happy Meeting !!,keep your love in your cart 👜</h1>
             <div>{pets.map((insert))}</div>
-            <div className="footer">
+            <div className="footer fitit">
                 <Footer />
             </div>
         </div>
