@@ -75,6 +75,10 @@
     font-size: 20px;
     font-weight: 600;
 }
+.remove_from_cart{
+    cursor: pointer;
+    top:0px;
+}
 .description-box{
     width: 50%;
     display: flex;
