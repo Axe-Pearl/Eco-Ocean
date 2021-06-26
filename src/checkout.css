@@ -1,67 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+/* parent */
+.checkout{
+    margin-top:70px;
+}
+.basket-pets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+/* cart-checker */
 .basket_check{
     display: flex;
     padding: 20px;
     justify-content: center;
-    border:1px grey solid;
     margin: 30px;
+    flex-wrap: wrap;
+}
+.bag-img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
 }
 
+.bag-status{
+    margin-left: 20px;
+    margin-top:70px;
+}
+ 
+/* all pets in bag */
 .basket_reveal{
  display: flex;
  margin:30px;
+ padding:20px;
  border-bottom: 1px grey solid;
- padding:10px;
 }
-.img{
-    width:300px;
-    height: 300px;
-    object-fit: cover;
-    margin:20px;
-   margin-bottom: 0px;
-}
+
 .details{
-    border-left:solid 1px grey;
+    margin-left:120px;
 }
+
 .breed:before{
     content:"Name of Breed: ";
     color:#161637;
-    margin-right: 5px;
 }
 .breed{
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   margin:20px;
-}
+    display: flex;
+    font-family:'Inter', sans-serif;
+    color:green;
+ }
 .price:before{
   content:"Price: ";
   color:#161637;
-  margin-right: 5px;
+
 }
 .price{
-    font-family:verdana;
-    color: blue;
-    margin:20px;
+    display: flex;
+    color:green;
 }
 
 .image-container{
     display: flex;
     width: 30%;
 }
+.img-pet{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
 .remove{
     display: flex;
-    flex-direction: column;
-    padding: 25px;
-    align-items: center;
-    width: 10%;
 }
-
+.delete{
+    font-size: 20px;
+    font-weight: 600;
+}
 .description-box{
     width: 50%;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
-    border-left:1px solid grey;
+    margin-top: 20px;
 }
 .description{
     margin-top: 0px;
+}
+.about:before{
+    content:"Description : ";
+    font-weight: 600;
 }

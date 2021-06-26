@@ -35,20 +35,19 @@ function Insert(terms){
     }
     return(
     <div className="basket_reveal">
-        <div className = "image-container">
-        <img src={terms.image} className="img"></img>
+        <div className = "image-basket">
+        <img src={terms.image} className="img-pet"></img>
         </div>
         <div className="details">
         <h3 className="breed">{terms.petbreed}</h3>
         <h4 className="price">₹{terms.price}</h4>
-        </div>
         <div className="remove">
-        <DeleteIcon  className="remove_from_cart" onClick={removefromBasket}/>
-        <medium>Delete</medium>
+        <DeleteIcon onClick={removefromBasket} classes={{root:"remove_from_cart"}} style={{ fontSize: 30 }}/>
+        <medium className="delete">Delete</medium>
         </div>
         <div className="description-box">
-            <h3 className="description">Description</h3>
             <p className="about">{terms.description.substring(0,500)}&ensp;<Link to = "/readmore"><h5 onClick={showmore} >Read More...</h5> </Link> </p>
+        </div>
         </div>
     </div>
     )
@@ -58,19 +57,32 @@ function Cart_checker(){
     if(basket.length == 0){
         return(
             <div className="basket_check">
-                <h1>Hey! Your Selected pets will apppear here</h1>
+                <div className="bag">
+                    <img className="bag-img" src="../Images/urbag.jpg"></img>
+                </div>
+                <div className="bag-status">
+                   <h1>OOPS ! There is no one 
+                    <br></br>inside your bag 🤷‍♂️</h1>
+                </div>
             </div>
         )
     }
+    // else{
+    //     return(
+    //         <div className="bag">
+    //                 <img className="bag-img" src="../Images/urbag.jpg"></img>
+    //             </div>
+    //     )
+    // }
     return;
 }
 function Checkout() {
     const [{basket},dispatch] = useStateValue(); 
         console.log("basket",basket);
         return(
-            <div>
+            <div className="checkout">
+                <h1>You are Inside your bag !!</h1>
                 {Cart_checker()}
-
            <div className="basket-pets">
            <FlipMove>
               {basket.map(Insert)}
