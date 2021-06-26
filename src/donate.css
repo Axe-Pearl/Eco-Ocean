@@ -30,6 +30,30 @@
 }
 
 /* donate form */
+.header-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -80px;
+    flex-wrap: wrap;
+}
+.signup-containero{
+    display: inline-flex;
+    font-family: 'Inter var',sans-serif;
+    justify-content: center;
+}
+.d-title{
+    display: flex;
+}
+.signup-formo{
+    background-color: blanchedalmond;
+    display: inline-flex;
+    flex-direction: column;
+    padding:30px;
+    margin-top: 60px;
+    margin-left: 55px;
+    width: 500px;
+    line-height: 40px;
+}
 .form-container{
     display: flex;
     justify-content: center;
@@ -38,4 +62,20 @@
     height: 300px;
     width: 300px;
     object-fit: contain;
+    margin-bottom: -30px;
+}
+.amount-box{
+    display: flex;
+    margin-top: 20px;
+}
+.amount{
+    width: 200px;
+    height: 40px;
+    border:1px solid rgb(54, 56, 59);
+    border-radius:5px;
+    margin-left: 10px;
+}
+.btn-donate{
+    display: flex;
+    justify-content: center;
 }
