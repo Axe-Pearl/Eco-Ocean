@@ -8,11 +8,16 @@ import Checkout from './checkout';
 import Adoptback from "./adoptback";
 import Brief from "./brief";
 import Signup from "./signup";
+import Community from "./community";
 function App() {
   return (
     <Router>
     <div className="App">
       <Switch>
+        <Route path="/community">
+          <Header />
+          <Community />
+        </Route>
         <Route path="/signup">
            <Signup />
         </Route>
