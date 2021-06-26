@@ -5,8 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 .header{
     display: flex;
+    width: 100%;
     background-color: ivory;
     border-bottom: solid 1px rgb(137, 236, 137);
+    position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
+    /* position: fixed;
+    z-index:100; */
 }
 .header-options{
   display: flex;

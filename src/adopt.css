@@ -1,50 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 
 .pet_container{
     display: inline-block;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 .pet_content{
-    border:1px black solid;
+    display: flex;
+    flex-wrap: wrap;
     width: 300px;
     line-height: 6px;
-    padding: 10px;
+    padding: 30px;
     margin:20px;
-    background-color: bisque;
-    border-radius: 10px;
-    transition-duration: 1s;
+    background-color:blanchedalmond;
 }
-.pet_content:hover{
-    transform:scale(1.1);
-}
-.img{
-    width:280px;
-    height: 300px;
+.img-ani{
+    width:200px;
+    height: 200px;
     object-fit: cover;
-    margin-bottom: 0px;
+    margin:20px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.img-ani:hover{
+ transform: scale(1.1);
 }
 .breed{
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family:'Inter', sans-serif;
+   color:green;
 }
 .price{
-    font-family:verdana;
-    color: blue;
-}
-.link{
-    text-decoration: none;
-}
-.link::after{
-    content:"About them";
-    color:black;
-    transition: 3s;
-}
-.link:hover::after{
-    content:"Read->";
+    font-family:'Inter', sans-serif;
+    color:green;
 }
 .add_to_cart{
-    width: 100px;
-    height: 35px;
-    background-color:darkseagreen;
-    border-radius: 20px;
+    width: 282px;
+    height: 50px;
+    margin-top: 10px;
+    border:1px #00B730 solid;
+    font-family: 'Inter var',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(44, 40, 40);
+    animation: clicked 1s ;
+    animation-iteration-count: 1s;
 }
+.add_to_cart:focus{
+    border:1.5px black solid;
+}
+
 .add_to_cart:hover{
-    background-color: orange;
+    background-color:#43E6A8 ;
+    color:white;
 }

@@ -51,7 +51,7 @@ function Signup(){
                <input className="input-fields" type="password" placeholder="password"></input>
 
                <button className="btn" type="submit">SIGN IN</button>
-               <p className="signin-line">Don't have an account ?&ensp; <a className="linkit" href="#">Sign In</a></p>
+               <p className="signin-line">Don't have an account ?&ensp; <a className="linkit" href="#">Sign Up</a></p>
            </div>
        </div>
        </div>

@@ -3,15 +3,16 @@
 .sign-up{
     display:flex;
     width: 30%;
+    height: 1000px;
     float:left;
     flex-direction: column;
     background-color:whitesmoke;
     padding-left:20px;
-    padding-right: 50px;
+    padding-right: 20px;
     font-family: 'Inter',sans-serif;
 }
 .homepage{
-    margin-left: -250px;
+    margin-right:100px;
     text-decoration: none;
 }
 .webname{

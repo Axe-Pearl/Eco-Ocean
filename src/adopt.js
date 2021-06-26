@@ -20,11 +20,10 @@ function Adopt({id,image,petbreed,price,description}) {
   return (
         <div className="pet_container">
                 <div className="pet_content">
-                <img className="img" src={image}></img>
+                <img className="img-ani" src={image}></img>
                  <h3 className="breed">{petbreed}</h3>
                  <h4 className="price">₹{price}</h4>
-                 <h4><a className="link" href="#"></a></h4>
-                 <button className="add_to_cart" onClick={addToBasket}>Add to Cart</button>
+                 <button className="add_to_cart" onClick={addToBasket} autofocus>Add to Cart</button>
                  </div>
          </div>
   );

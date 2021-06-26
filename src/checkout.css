@@ -24,6 +24,8 @@
 }
 .breed:before{
     content:"Name of Breed: ";
+    color:#161637;
+    margin-right: 5px;
 }
 .breed{
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,6 +33,8 @@
 }
 .price:before{
   content:"Price: ";
+  color:#161637;
+  margin-right: 5px;
 }
 .price{
     font-family:verdana;

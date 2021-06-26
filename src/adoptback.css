@@ -1,0 +1,15 @@
+.adopt_container{
+    display: flex;
+    color:#161637;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.adopted{
+    margin-left:30px;
+    width: 600px;
+    height: 550px;
+}
+.and{
+    margin-top: 50px;
+}
